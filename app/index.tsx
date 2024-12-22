@@ -5,9 +5,9 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            <Text>Aora!</Text>
             <StatusBar barStyle="dark-content" />
-            <Link href="/profile" style={{ color: "blue" }}>Go to Profile</Link>
+            <Text>Aora!</Text>
+            <Link href="/profile" style={{ color: "blue", textDecorationLine: "underline" }}>Go to Profile</Link>
         </View>
     );
 }
