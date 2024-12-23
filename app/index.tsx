@@ -6,7 +6,7 @@ export default function App() {
     return (
         <View className="flex-1 items-center justify-center bg-white">
             <StatusBar barStyle="dark-content" />
-            <Text className="text-2xl font-bold">Aora!</Text>
+            <Text className="text-2xl font-pblack">Aora!</Text>
             <Link href="/profile" style={{ color: "blue", textDecorationLine: "underline" }}>Go to Profile</Link>
         </View>
     );
